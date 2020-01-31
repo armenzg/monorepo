@@ -6,6 +6,7 @@ authors = ["Armen Zambrano G. <armenzg@mozilla.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+django = "^3.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"

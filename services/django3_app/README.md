@@ -13,7 +13,11 @@ Run `poetry install`.
 
 ## Run Django
 
-Run `poetry run TBD`.
+Run `poetry run ./manage.py runserver`.
+
+### Run the Django migrations
+
+Run `poetry manage.py migrate`.
 
 ## Tests
 
