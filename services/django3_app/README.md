@@ -11,14 +11,9 @@ Simple Django app.
 
 Run `poetry install`.
 
-## Run Django
+## Usage
 
-Run `poetry run ./manage.py runserver`.
-
-### Run the Django migrations
-
-Run `poetry manage.py migrate`.
-
-## Tests
-
-Run `poetry run pytest`.
+To run the project: `poetry run ./manage.py runserver`.
+To run the migrations: `poetry manage.py migrate`.
+To run the tests: `poetry run pytest`.
+To add a dependency: `poetry add a_package && poetry export -f requirements.txt -o requirements.txt`
