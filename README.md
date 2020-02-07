@@ -24,6 +24,8 @@ Using independent services and SPAs makes each one easier to comprehend (reduced
 
 Each service/SPA can defined support for different tooling and integrations with IDEs.
 
+It reduces package bloating. For instance, to make a service work you need its dependencies to be included and that causes builds to become larger and slower to complete.
+
 ## Downsides
 
 Having multiple services/SPAs requires granting write permissions to all the code and not being able to restrict a set of persons to one service.
