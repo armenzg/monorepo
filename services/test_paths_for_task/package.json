@@ -1,0 +1,31 @@
+{
+  "name": "test_paths_for_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
+  },
+  "dependencies": {
+    "pako": "^1.0.11",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-hot-loader": "^4",
+    "taskcluster-client-web": "^34.0.1"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^9.2.0",
+    "@neutrinojs/jest": "^9.2.0",
+    "@neutrinojs/react": "^9.2.0",
+    "eslint": "^7",
+    "jest": "^26",
+    "neutrino": "^9.2.0",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}
