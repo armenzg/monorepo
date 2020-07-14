@@ -10,10 +10,12 @@
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test"
   },
   "dependencies": {
+    "pako": "^1.0.11",
     "prop-types": "^15",
     "react": "^16",
     "react-dom": "^16",
-    "react-hot-loader": "^4"
+    "react-hot-loader": "^4",
+    "taskcluster-client-web": "^34.0.1"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "^9.2.0",
